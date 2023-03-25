@@ -1,8 +1,8 @@
 ---
 layout: forward
-targettitle: Taking you to digital-austria.at
+targettitle: digital-austria.at
 target: https://digital-austria.at
 targetname: digital-austria.at
-time: 3
-message: Redirecting you to our website
+time: 1
+message: Du wirst zu unserer Website weitergeleitet
 ---
