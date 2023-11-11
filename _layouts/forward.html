@@ -36,7 +36,7 @@
     {% if page.targettitle %}
     {% assign title = page.targettitle %}
     {% endif %}
-    <!-- <meta http-equiv="refresh" content="{{ time }};url={{ page.target }}"/> -->
+    <meta http-equiv="refresh" content="{{ time }};url={{ page.target }}"/>
     <link rel="canonical" href="{{ page.target }}"/>
     <title>{{ title }}</title>
     <style>
@@ -46,9 +46,6 @@
             margin: 1em auto;
         }
     </style>
-    <script>
-         document.location = "{{ page.target }}?utm_referrer=" + encodeURIComponent(location.href); ;
-    </script>
 <</head>
 <body>
     <h1>{{ title }}</h1>
